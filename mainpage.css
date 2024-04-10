@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('lol.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+#apu {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-wrapper {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.link-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px; 
+    height: 150px; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+.link-box p {
+    margin: 0;
+    text-align: center; 
+}
+
+.links a {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #f2f2f2;
+}
+
+/* Media queries for responsiveness on phones */
+@media screen and (max-width: 768px) {
+    #apu {
+        width: 100px;
+    }
+
+    .link-box {
+        width: 150px;
+        height: 100px;
+    }
+
+    .link-wrapper {
+        margin: 0 5px; 
+    }
+}

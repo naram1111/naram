@@ -1,0 +1,34 @@
+.container {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+body{
+    background: Linear-gradient(rgb(66, 25, 0),rgb(4, 58, 4))
+  }
+
+.picture {
+    border-radius:20px ;
+    width: 88%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    image-resolution: 390px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+.picture img{
+    size: 40px;
+}
+
+.picture h2 {
+    font-size: 18px;
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.picture p {
+    margin: 10px 0;
+  }
